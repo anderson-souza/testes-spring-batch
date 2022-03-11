@@ -1,0 +1,136 @@
+2021-12-18 10:57:47,318 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Starting PrimeiroprojetospringbatchApplication using Java 11.0.11 on DESKTOP-B7NH51D with PID 12028 (D:\Java Repository\primeiroprojetospringbatch\target\classes started by ander in D:\Java Repository\primeiroprojetospringbatch)
+2021-12-18 10:57:47,318 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] No active profile set, falling back to default profiles: default
+2021-12-18 10:57:47,776 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-18 10:57:47,796 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-12-18 10:57:48,116 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-18 10:57:48,299 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-18 10:57:48,422 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-18 10:57:48,485 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-18 10:57:48,636 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-18 10:57:48,881 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-18 10:57:49,130 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-18 10:57:49,138 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 10:57:49,272 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-12-18 10:57:49,412 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-18 10:57:49,497 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Started PrimeiroprojetospringbatchApplication in 2.45 seconds (JVM running for 3.638)
+2021-12-18 10:57:49,697 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] launched with the following parameters: [{run.id=26, nome=Anderson}]
+2021-12-18 10:57:49,757 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeHelloWorldStep]
+2021-12-18 10:57:49,796 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeHelloWorldStep] executed in 37ms
+2021-12-18 10:57:49,817 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] completed with the following parameters: [{run.id=26, nome=Anderson}] and the following status: [COMPLETED] in 100ms
+2021-12-18 10:57:49,862 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] launched with the following parameters: [{run.id=19}]
+2021-12-18 10:57:49,871 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar INICIOU A EXECUÇÃO
+2021-12-18 10:57:49,890 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimirParImpar]
+2021-12-18 10:57:49,896 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar INICIOU A EXECUÇÃO
+2021-12-18 10:57:49,924 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar FINALIZOU A EXECUÇÃO COM O STATUS exitCode=COMPLETED;exitDescription=
+2021-12-18 10:57:49,928 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimirParImpar] executed in 38ms
+2021-12-18 10:57:49,939 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar FINALIZOU A EXECUÇÃO COM O STATUS COMPLETED
+2021-12-18 10:57:49,946 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] completed with the following parameters: [{run.id=19}] and the following status: [COMPLETED] in 76ms
+2021-12-18 10:57:49,950 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 10:57:49,954 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-18 10:57:49,968 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-18 11:17:31,446 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Starting PrimeiroprojetospringbatchApplication using Java 11.0.11 on DESKTOP-B7NH51D with PID 792 (D:\Java Repository\primeiroprojetospringbatch\target\classes started by ander in D:\Java Repository\primeiroprojetospringbatch)
+2021-12-18 11:17:31,449 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] No active profile set, falling back to default profiles: default
+2021-12-18 11:17:31,912 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-18 11:17:31,932 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-12-18 11:17:32,270 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-18 11:17:32,433 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-18 11:17:32,558 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-18 11:17:32,628 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-18 11:17:32,780 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-18 11:17:33,031 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-18 11:17:33,260 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-18 11:17:33,269 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:17:33,396 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-12-18 11:17:33,542 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-18 11:17:33,629 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Started PrimeiroprojetospringbatchApplication in 2.479 seconds (JVM running for 3.641)
+2021-12-18 11:17:33,831 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] launched with the following parameters: [{run.id=27, nome=Anderson}]
+2021-12-18 11:17:33,904 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeHelloWorldStep]
+2021-12-18 11:17:33,945 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeHelloWorldStep] executed in 40ms
+2021-12-18 11:17:33,967 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] completed with the following parameters: [{run.id=27, nome=Anderson}] and the following status: [COMPLETED] in 99ms
+2021-12-18 11:17:34,012 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] launched with the following parameters: [{run.id=20}]
+2021-12-18 11:17:34,022 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:17:34,041 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimirParImpar]
+2021-12-18 11:17:34,056 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:17:34,081 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar FINALIZOU A EXECUÇÃO COM O STATUS exitCode=COMPLETED;exitDescription=
+2021-12-18 11:17:34,085 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimirParImpar] executed in 44ms
+2021-12-18 11:17:34,095 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar FINALIZOU A EXECUÇÃO COM O STATUS COMPLETED
+2021-12-18 11:17:34,102 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] completed with the following parameters: [{run.id=20}] and the following status: [COMPLETED] in 82ms
+2021-12-18 11:17:34,106 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:17:34,109 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-18 11:17:34,124 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-18 11:40:01,712 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Starting PrimeiroprojetospringbatchApplication using Java 11.0.11 on DESKTOP-B7NH51D with PID 17344 (D:\Java Repository\primeiroprojetospringbatch\target\classes started by ander in D:\Java Repository\primeiroprojetospringbatch)
+2021-12-18 11:40:01,717 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] No active profile set, falling back to default profiles: default
+2021-12-18 11:40:02,192 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-18 11:40:02,217 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-12-18 11:40:02,532 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-18 11:40:02,700 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-18 11:40:02,814 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-18 11:40:02,873 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-18 11:40:02,997 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-18 11:40:03,227 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-18 11:40:03,467 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-18 11:40:03,471 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:40:03,637 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-12-18 11:40:03,794 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-18 11:40:03,892 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Started PrimeiroprojetospringbatchApplication in 2.467 seconds (JVM running for 3.645)
+2021-12-18 11:40:04,105 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] launched with the following parameters: [{run.id=28, nome=Anderson}]
+2021-12-18 11:40:04,162 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeHelloWorldStep]
+2021-12-18 11:40:04,201 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeHelloWorldStep] executed in 39ms
+2021-12-18 11:40:04,221 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] completed with the following parameters: [{run.id=28, nome=Anderson}] and the following status: [COMPLETED] in 90ms
+2021-12-18 11:40:04,254 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=jdbcCursorReaderJob]] launched with the following parameters: [{run.id=1}]
+2021-12-18 11:40:04,280 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [jdbcCursorReaderStep]
+2021-12-18 11:40:04,288 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Starting...
+2021-12-18 11:40:04,511 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Start completed.
+2021-12-18 11:40:04,577 INFO o.s.b.c.s.AbstractStep [main] Step: [jdbcCursorReaderStep] executed in 296ms
+2021-12-18 11:40:04,601 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=jdbcCursorReaderJob]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 337ms
+2021-12-18 11:40:04,653 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] launched with the following parameters: [{run.id=21}]
+2021-12-18 11:40:04,663 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:40:04,692 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimirParImpar]
+2021-12-18 11:40:04,701 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:40:04,730 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar FINALIZOU A EXECUÇÃO COM O STATUS exitCode=COMPLETED;exitDescription=
+2021-12-18 11:40:04,736 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimirParImpar] executed in 44ms
+2021-12-18 11:40:04,750 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar FINALIZOU A EXECUÇÃO COM O STATUS COMPLETED
+2021-12-18 11:40:04,760 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] completed with the following parameters: [{run.id=21}] and the following status: [COMPLETED] in 97ms
+2021-12-18 11:40:04,767 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2021-12-18 11:40:04,786 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2021-12-18 11:40:04,786 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:40:04,790 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-18 11:40:04,801 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-12-18 11:40:25,266 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Starting PrimeiroprojetospringbatchApplication using Java 11.0.11 on DESKTOP-B7NH51D with PID 19416 (D:\Java Repository\primeiroprojetospringbatch\target\classes started by ander in D:\Java Repository\primeiroprojetospringbatch)
+2021-12-18 11:40:25,268 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] No active profile set, falling back to default profiles: default
+2021-12-18 11:40:25,732 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-18 11:40:25,747 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-12-18 11:40:26,057 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-18 11:40:26,245 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-18 11:40:26,386 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-18 11:40:26,442 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-18 11:40:26,567 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-18 11:40:26,792 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-18 11:40:27,022 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-18 11:40:27,030 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:40:27,178 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-12-18 11:40:27,312 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-18 11:40:27,398 INFO c.u.p.PrimeiroprojetospringbatchApplication [main] Started PrimeiroprojetospringbatchApplication in 2.505 seconds (JVM running for 3.48)
+2021-12-18 11:40:27,607 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] launched with the following parameters: [{run.id=29, nome=Anderson}]
+2021-12-18 11:40:27,664 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeHelloWorldStep]
+2021-12-18 11:40:27,708 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeHelloWorldStep] executed in 44ms
+2021-12-18 11:40:27,732 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeHelloWorld]] completed with the following parameters: [{run.id=29, nome=Anderson}] and the following status: [COMPLETED] in 98ms
+2021-12-18 11:40:27,788 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=jdbcCursorReaderJob]] launched with the following parameters: [{run.id=2}]
+2021-12-18 11:40:27,821 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [jdbcCursorReaderStep]
+2021-12-18 11:40:27,828 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Starting...
+2021-12-18 11:40:28,012 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Start completed.
+2021-12-18 11:40:28,076 INFO o.s.b.c.s.AbstractStep [main] Step: [jdbcCursorReaderStep] executed in 255ms
+2021-12-18 11:40:28,099 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=jdbcCursorReaderJob]] completed with the following parameters: [{run.id=2}] and the following status: [COMPLETED] in 302ms
+2021-12-18 11:40:28,152 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] launched with the following parameters: [{run.id=22}]
+2021-12-18 11:40:28,162 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:40:28,186 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimirParImpar]
+2021-12-18 11:40:28,195 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar INICIOU A EXECUÇÃO
+2021-12-18 11:40:28,220 INFO c.u.p.StepLogListener [main] STEP imprimirParImpar FINALIZOU A EXECUÇÃO COM O STATUS exitCode=COMPLETED;exitDescription=
+2021-12-18 11:40:28,225 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimirParImpar] executed in 39ms
+2021-12-18 11:40:28,237 INFO c.u.p.JobLoggerListener [main] JOB imprimeParImpar FINALIZOU A EXECUÇÃO COM O STATUS COMPLETED
+2021-12-18 11:40:28,246 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImpar]] completed with the following parameters: [{run.id=22}] and the following status: [COMPLETED] in 85ms
+2021-12-18 11:40:28,251 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2021-12-18 11:40:28,266 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2021-12-18 11:40:28,266 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-18 11:40:28,269 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-18 11:40:28,281 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
